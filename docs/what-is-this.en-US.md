@@ -61,29 +61,29 @@ Package operations: 52 installs, 0 updates, 0 removals
   - Installing vlucas/phpdotenv (v5.3.0): Extracting archive
   - Installing symfony/css-selector (v5.3.0): Extracting archive
   - Installing tijsverkoyen/css-to-inline-styles (2.2.3): Extracting archive
-  - Installing symfony/var-dumper (v5.3.0): Extracting archive
+  - Installing symfony/var-dumper (v5.3.2): Extracting archive
   - Installing symfony/deprecation-contracts (v2.4.0): Extracting archive
   - Installing symfony/routing (v5.3.0): Extracting archive
-  - Installing symfony/process (v5.3.0): Extracting archive
+  - Installing symfony/process (v5.3.2): Extracting archive
   - Installing symfony/polyfill-php72 (v1.23.0): Extracting archive
   - Installing symfony/polyfill-intl-normalizer (v1.23.0): Extracting archive
   - Installing symfony/polyfill-intl-idn (v1.23.0): Extracting archive
-  - Installing symfony/mime (v5.3.0): Extracting archive
+  - Installing symfony/mime (v5.3.2): Extracting archive
   - Installing symfony/polyfill-php73 (v1.23.0): Extracting archive
-  - Installing symfony/http-foundation (v5.3.1): Extracting archive
+  - Installing symfony/http-foundation (v5.3.2): Extracting archive
   - Installing symfony/http-client-contracts (v2.4.0): Extracting archive
   - Installing psr/event-dispatcher (1.0.0): Extracting archive
   - Installing symfony/event-dispatcher-contracts (v2.4.0): Extracting archive
   - Installing symfony/event-dispatcher (v5.3.0): Extracting archive
   - Installing psr/log (1.1.4): Extracting archive
   - Installing symfony/error-handler (v5.3.0): Extracting archive
-  - Installing symfony/http-kernel (v5.3.1): Extracting archive
+  - Installing symfony/http-kernel (v5.3.2): Extracting archive
   - Installing symfony/finder (v5.3.0): Extracting archive
   - Installing symfony/polyfill-intl-grapheme (v1.23.0): Extracting archive
-  - Installing symfony/string (v5.3.0): Extracting archive
+  - Installing symfony/string (v5.3.2): Extracting archive
   - Installing psr/container (1.1.1): Extracting archive
   - Installing symfony/service-contracts (v2.4.0): Extracting archive
-  - Installing symfony/console (v5.3.0): Extracting archive
+  - Installing symfony/console (v5.3.2): Extracting archive
   - Installing symfony/polyfill-iconv (v1.23.0): Extracting archive
   - Installing egulias/email-validator (2.1.25): Extracting archive
   - Installing swiftmailer/swiftmailer (v6.2.7): Extracting archive
@@ -93,14 +93,14 @@ Package operations: 52 installs, 0 updates, 0 removals
   - Installing psr/simple-cache (1.0.1): Extracting archive
   - Installing opis/closure (3.6.2): Extracting archive
   - Installing symfony/translation-contracts (v2.4.0): Extracting archive
-  - Installing symfony/translation (v5.3.0): Extracting archive
-  - Installing nesbot/carbon (2.48.1): Extracting archive
+  - Installing symfony/translation (v5.3.2): Extracting archive
+  - Installing nesbot/carbon (2.49.0): Extracting archive
   - Installing monolog/monolog (2.2.0): Extracting archive
   - Installing league/mime-type-detection (1.7.0): Extracting archive
   - Installing league/flysystem (1.1.3): Extracting archive
   - Installing league/commonmark (1.6.2): Extracting archive
-  - Installing laravel/framework (v8.45.1): Extracting archive
-```
+  - Installing laravel/framework (v8.47.0): Extracting archive
+  ```
 
 ## Version
 
