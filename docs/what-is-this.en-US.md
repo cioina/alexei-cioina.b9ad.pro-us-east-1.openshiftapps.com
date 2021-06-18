@@ -100,7 +100,7 @@ Package operations: 52 installs, 0 updates, 0 removals
   - Installing league/flysystem (1.1.3): Extracting archive
   - Installing league/commonmark (1.6.2): Extracting archive
   - Installing laravel/framework (v8.47.0): Extracting archive
-  ```
+```
 
 ## Version
 
