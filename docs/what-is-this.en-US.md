@@ -48,58 +48,58 @@ We use following PHP packages via Composer install:
 
 ```bash
 Package operations: 52 installs, 0 updates, 0 removals
-  - Installing doctrine/inflector (2.0.3): Extracting archive
-  - Installing doctrine/lexer (1.2.1): Extracting archive
-  - Installing symfony/polyfill-ctype (v1.23.0): Extracting archive
-  - Installing webmozart/assert (1.10.0): Extracting archive
-  - Installing dragonmantank/cron-expression (v3.1.0): Extracting archive
-  - Installing voku/portable-ascii (1.5.6): Extracting archive
-  - Installing symfony/polyfill-php80 (v1.23.0): Extracting archive
-  - Installing symfony/polyfill-mbstring (v1.23.0): Extracting archive
-  - Installing phpoption/phpoption (1.7.5): Extracting archive
-  - Installing graham-campbell/result-type (v1.0.1): Extracting archive
-  - Installing vlucas/phpdotenv (v5.3.0): Extracting archive
-  - Installing symfony/css-selector (v5.3.0): Extracting archive
-  - Installing tijsverkoyen/css-to-inline-styles (2.2.3): Extracting archive
-  - Installing symfony/var-dumper (v5.3.2): Extracting archive
-  - Installing symfony/deprecation-contracts (v2.4.0): Extracting archive
-  - Installing symfony/routing (v5.3.0): Extracting archive
-  - Installing symfony/process (v5.3.2): Extracting archive
-  - Installing symfony/polyfill-php72 (v1.23.0): Extracting archive
-  - Installing symfony/polyfill-intl-normalizer (v1.23.0): Extracting archive
-  - Installing symfony/polyfill-intl-idn (v1.23.0): Extracting archive
-  - Installing symfony/mime (v5.3.2): Extracting archive
-  - Installing symfony/polyfill-php73 (v1.23.0): Extracting archive
-  - Installing symfony/http-foundation (v5.3.2): Extracting archive
-  - Installing symfony/http-client-contracts (v2.4.0): Extracting archive
-  - Installing psr/event-dispatcher (1.0.0): Extracting archive
-  - Installing symfony/event-dispatcher-contracts (v2.4.0): Extracting archive
-  - Installing symfony/event-dispatcher (v5.3.0): Extracting archive
-  - Installing psr/log (1.1.4): Extracting archive
-  - Installing symfony/error-handler (v5.3.0): Extracting archive
-  - Installing symfony/http-kernel (v5.3.2): Extracting archive
-  - Installing symfony/finder (v5.3.0): Extracting archive
-  - Installing symfony/polyfill-intl-grapheme (v1.23.0): Extracting archive
-  - Installing symfony/string (v5.3.2): Extracting archive
-  - Installing psr/container (1.1.1): Extracting archive
-  - Installing symfony/service-contracts (v2.4.0): Extracting archive
-  - Installing symfony/console (v5.3.2): Extracting archive
-  - Installing symfony/polyfill-iconv (v1.23.0): Extracting archive
-  - Installing egulias/email-validator (2.1.25): Extracting archive
-  - Installing swiftmailer/swiftmailer (v6.2.7): Extracting archive
-  - Installing ramsey/collection (1.1.3): Extracting archive
-  - Installing brick/math (0.9.2): Extracting archive
-  - Installing ramsey/uuid (4.1.1): Extracting archive
-  - Installing psr/simple-cache (1.0.1): Extracting archive
-  - Installing opis/closure (3.6.2): Extracting archive
-  - Installing symfony/translation-contracts (v2.4.0): Extracting archive
-  - Installing symfony/translation (v5.3.2): Extracting archive
-  - Installing nesbot/carbon (2.49.0): Extracting archive
-  - Installing monolog/monolog (2.2.0): Extracting archive
-  - Installing league/mime-type-detection (1.7.0): Extracting archive
-  - Installing league/flysystem (1.1.3): Extracting archive
-  - Installing league/commonmark (1.6.2): Extracting archive
-  - Installing laravel/framework (v8.47.0): Extracting archive
+  - Locking brick/math (0.9.2)
+  - Locking doctrine/inflector (2.0.3)
+  - Locking doctrine/lexer (1.2.1)
+  - Locking dragonmantank/cron-expression (v3.1.0)
+  - Locking egulias/email-validator (2.1.25)
+  - Locking graham-campbell/result-type (v1.0.1)
+  - Locking laravel/framework (v8.49.0)
+  - Locking league/commonmark (1.6.5)
+  - Locking league/flysystem (1.1.4)
+  - Locking league/mime-type-detection (1.7.0)
+  - Locking monolog/monolog (2.2.0)
+  - Locking nesbot/carbon (2.50.0)
+  - Locking opis/closure (3.6.2)
+  - Locking phpoption/phpoption (1.7.5)
+  - Locking psr/container (1.1.1)
+  - Locking psr/event-dispatcher (1.0.0)
+  - Locking psr/log (1.1.4)
+  - Locking psr/simple-cache (1.0.1)
+  - Locking ramsey/collection (1.1.3)
+  - Locking ramsey/uuid (4.1.1)
+  - Locking swiftmailer/swiftmailer (v6.2.7)
+  - Locking symfony/console (v5.3.2)
+  - Locking symfony/css-selector (v5.3.0)
+  - Locking symfony/deprecation-contracts (v2.4.0)
+  - Locking symfony/error-handler (v5.3.3)
+  - Locking symfony/event-dispatcher (v5.3.0)
+  - Locking symfony/event-dispatcher-contracts (v2.4.0)
+  - Locking symfony/finder (v5.3.0)
+  - Locking symfony/http-client-contracts (v2.4.0)
+  - Locking symfony/http-foundation (v5.3.3)
+  - Locking symfony/http-kernel (v5.3.3)
+  - Locking symfony/mime (v5.3.2)
+  - Locking symfony/polyfill-ctype (v1.23.0)
+  - Locking symfony/polyfill-iconv (v1.23.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.23.0)
+  - Locking symfony/polyfill-intl-idn (v1.23.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.23.0)
+  - Locking symfony/polyfill-mbstring (v1.23.0)
+  - Locking symfony/polyfill-php72 (v1.23.0)
+  - Locking symfony/polyfill-php73 (v1.23.0)
+  - Locking symfony/polyfill-php80 (v1.23.0)
+  - Locking symfony/process (v5.3.2)
+  - Locking symfony/routing (v5.3.0)
+  - Locking symfony/service-contracts (v2.4.0)
+  - Locking symfony/string (v5.3.3)
+  - Locking symfony/translation (v5.3.3)
+  - Locking symfony/translation-contracts (v2.4.0)
+  - Locking symfony/var-dumper (v5.3.3)
+  - Locking tijsverkoyen/css-to-inline-styles (2.2.3)
+  - Locking vlucas/phpdotenv (v5.3.0)
+  - Locking voku/portable-ascii (1.5.6)
+  - Locking webmozart/assert (1.10.0)
 ```
 
 ## Version
