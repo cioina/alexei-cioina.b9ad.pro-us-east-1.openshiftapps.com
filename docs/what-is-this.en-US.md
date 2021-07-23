@@ -3,7 +3,7 @@ order: 0
 title: What Is This?
 ---
 
-This is an unofficial `ng-zorro-antd` demo website. The main goal is to explore and learn `ng-zorro-antd` components and Angular `^11.0.0`.
+This is an unofficial `ng-zorro-antd` demo website. The main goal is to explore and learn `ng-zorro-antd` components and Angular `^12.0.0`.
 
 > At this time, we use some `ng-zorro-antd` documentation pages for demonstration purpose.
 
@@ -29,7 +29,6 @@ The client-side code is written in TypeScript and is compiled with `@angular/cli
 - Default and dark themes out of the box
 - Lazy-loading Angular modules
 - Reactive libraries for Angular ([website](https://github.com/ngrx/platform))
-- Differential loading for legacy browser support
 - "Headless" website architecture (decoupled architecture)
 
 ## Server-side
@@ -47,18 +46,18 @@ The server-side code is written in PHP and uses Laravel 8 framework.
 We use following PHP packages via Composer install:
 
 ```bash
-Package operations: 52 installs, 0 updates, 0 removals
+Lock file operations: 52 installs, 0 updates, 0 removals
   - Locking brick/math (0.9.2)
   - Locking doctrine/inflector (2.0.3)
   - Locking doctrine/lexer (1.2.1)
   - Locking dragonmantank/cron-expression (v3.1.0)
   - Locking egulias/email-validator (2.1.25)
   - Locking graham-campbell/result-type (v1.0.1)
-  - Locking laravel/framework (v8.49.0)
+  - Locking laravel/framework (v8.50.0)
   - Locking league/commonmark (1.6.5)
   - Locking league/flysystem (1.1.4)
   - Locking league/mime-type-detection (1.7.0)
-  - Locking monolog/monolog (2.2.0)
+  - Locking monolog/monolog (2.3.1)
   - Locking nesbot/carbon (2.50.0)
   - Locking opis/closure (3.6.2)
   - Locking phpoption/phpoption (1.7.5)
