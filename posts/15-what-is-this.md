@@ -17,8 +17,8 @@ This is an unofficial `ng-zorro-antd` demo website. The main goal is to explore 
 
 The main difference between this website and the official `ng-zorro-antd` [website](https://ng.ant.design/docs/introduce/en) is that we don't use Server-side Rendering (SSR). If you are interested in SSR, you may choose:
 
-- **Angular Universal:** can control server-rendered page and transfer state before client-side web app loads to the client-side-app ([website](https://github.com/angular/universal))
-- **Scully:** is a static site generator for Angular ([website](https://github.com/scullyio/scully))
+- **Angular Universal:** a static site generator for Angular ([website](https://github.com/angular/universal))
+- **Scully:** a static site generator for Angular ([website](https://github.com/scullyio/scully))
 
 ## Client-side
 
@@ -35,7 +35,7 @@ The client-side code is written in TypeScript and is compiled with `@angular/cli
 
 The server-side code is written in PHP and uses Laravel 8 framework.
 
-- Written in PHP on top of Laravel framework
+- Written in PHP on top of Laravel framework ([website](https://github.com/laravel/framework))
 - JSON Web Token Authentication (JWT) for Laravel
 - Cross-Origin Resource Sharing (CORS) for Laravel
 - The content for the site is accessible via a RESTful web-service API
@@ -46,55 +46,56 @@ The server-side code is written in PHP and uses Laravel 8 framework.
 We use following PHP packages via Composer install:
 
 ```bash
-Lock file operations: 52 installs, 0 updates, 0 removals
-  - Locking brick/math (0.9.2)
+Lock file operations: 53 installs, 0 updates, 0 removals
+  - Locking brick/math (0.9.3)
   - Locking doctrine/inflector (2.0.3)
   - Locking doctrine/lexer (1.2.1)
   - Locking dragonmantank/cron-expression (v3.1.0)
   - Locking egulias/email-validator (2.1.25)
-  - Locking graham-campbell/result-type (v1.0.1)
-  - Locking laravel/framework (v8.50.0)
-  - Locking league/commonmark (1.6.5)
-  - Locking league/flysystem (1.1.4)
+  - Locking graham-campbell/result-type (v1.0.2)
+  - Locking laravel/framework (v8.61.0)
+  - Locking league/commonmark (1.6.6)
+  - Locking league/flysystem (1.1.5)
   - Locking league/mime-type-detection (1.7.0)
-  - Locking monolog/monolog (2.3.1)
-  - Locking nesbot/carbon (2.50.0)
+  - Locking monolog/monolog (2.3.4)
+  - Locking nesbot/carbon (2.53.1)
   - Locking opis/closure (3.6.2)
-  - Locking phpoption/phpoption (1.7.5)
+  - Locking phpoption/phpoption (1.8.0)
   - Locking psr/container (1.1.1)
   - Locking psr/event-dispatcher (1.0.0)
   - Locking psr/log (1.1.4)
   - Locking psr/simple-cache (1.0.1)
-  - Locking ramsey/collection (1.1.3)
-  - Locking ramsey/uuid (4.1.1)
+  - Locking ramsey/collection (1.2.1)
+  - Locking ramsey/uuid (4.2.1)
   - Locking swiftmailer/swiftmailer (v6.2.7)
-  - Locking symfony/console (v5.3.2)
-  - Locking symfony/css-selector (v5.3.0)
+  - Locking symfony/console (v5.3.7)
+  - Locking symfony/css-selector (v5.3.4)
   - Locking symfony/deprecation-contracts (v2.4.0)
-  - Locking symfony/error-handler (v5.3.3)
-  - Locking symfony/event-dispatcher (v5.3.0)
+  - Locking symfony/error-handler (v5.3.7)
+  - Locking symfony/event-dispatcher (v5.3.7)
   - Locking symfony/event-dispatcher-contracts (v2.4.0)
-  - Locking symfony/finder (v5.3.0)
+  - Locking symfony/finder (v5.3.7)
   - Locking symfony/http-client-contracts (v2.4.0)
-  - Locking symfony/http-foundation (v5.3.3)
-  - Locking symfony/http-kernel (v5.3.3)
-  - Locking symfony/mime (v5.3.2)
+  - Locking symfony/http-foundation (v5.3.7)
+  - Locking symfony/http-kernel (v5.3.7)
+  - Locking symfony/mime (v5.3.7)
   - Locking symfony/polyfill-ctype (v1.23.0)
   - Locking symfony/polyfill-iconv (v1.23.0)
-  - Locking symfony/polyfill-intl-grapheme (v1.23.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.23.1)
   - Locking symfony/polyfill-intl-idn (v1.23.0)
   - Locking symfony/polyfill-intl-normalizer (v1.23.0)
-  - Locking symfony/polyfill-mbstring (v1.23.0)
+  - Locking symfony/polyfill-mbstring (v1.23.1)
   - Locking symfony/polyfill-php72 (v1.23.0)
   - Locking symfony/polyfill-php73 (v1.23.0)
-  - Locking symfony/polyfill-php80 (v1.23.0)
-  - Locking symfony/process (v5.3.2)
-  - Locking symfony/routing (v5.3.0)
+  - Locking symfony/polyfill-php80 (v1.23.1)
+  - Locking symfony/polyfill-php81 (v1.23.0)
+  - Locking symfony/process (v5.3.7)
+  - Locking symfony/routing (v5.3.7)
   - Locking symfony/service-contracts (v2.4.0)
-  - Locking symfony/string (v5.3.3)
-  - Locking symfony/translation (v5.3.3)
+  - Locking symfony/string (v5.3.7)
+  - Locking symfony/translation (v5.3.7)
   - Locking symfony/translation-contracts (v2.4.0)
-  - Locking symfony/var-dumper (v5.3.3)
+  - Locking symfony/var-dumper (v5.3.7)
   - Locking tijsverkoyen/css-to-inline-styles (2.2.3)
   - Locking vlucas/phpdotenv (v5.3.0)
   - Locking voku/portable-ascii (1.5.6)

@@ -23,7 +23,7 @@ Angular Vue and React have very similar benchmarks, which should not be a decidi
 
 Yes, all components of `ng-zorro-antd` can be imported separately.
 
-### Why ng-zorro-antd use less？ Can I use sass instead？
+### Why ng-zorro-antd use less？ Can I use sass instead
 
 ng-zorro-antd follow the design spec of Ant Design, which could customize theme by less. `@angular/cli` support using both `less` and `sass` in the same project, they could work together.
 
