@@ -29,8 +29,8 @@ and fully automatic deployments.
 
 ## Simulate Static Content
 
-I found [a GitHub repository](https://github.com/dwightwatson/dwightwatson.com) that satisfies all 4 conditions. Well, in fact, it generates a static website, so condition 4 is not
-just simulated. In contrast, [this GitHub repository](https://github.com/dwightwatson/neontsunami-laravel) uses Laravel's Blade template and a MySql database to
+I've found [a GitHub repository](https://github.com/dwightwatson/dwightwatson.com) that satisfies all 4 conditions. Well, in fact, it generates a static website, so condition 4 is not
+just simulated. In contrast, [this GitHub repository](https://github.com/dwightwatson/neontsunami-laravel) uses Laravel's Blade template and a MySQL database to
 [generate posts](https://github.com/dwightwatson/neontsunami-laravel/blob/master/resources/views/posts/show.blade.php) on the server-side. It means that every time you access a post,
 your web browser makes a request to the server and the server will get the content from the database and render HTML content. Even if Blade caches the result, every request creates
 a connection to the database (We do not consider [Laravel Octane](https://laravel.com/docs/8.x/octane) here.) Static websites do not need a database and the content is cached on
