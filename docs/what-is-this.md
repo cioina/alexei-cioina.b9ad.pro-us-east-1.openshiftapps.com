@@ -27,9 +27,19 @@ The client-side code is written in TypeScript and is compiled with `@angular/cli
 - Written in TypeScript with complete defined types
 - 60+ high-quality`ng-zorro-antd` components out of the box
 - Default and dark themes out of the box
+- Few dependencens
 - Lazy-loading Angular modules
 - Reactive libraries for Angular ([website](https://github.com/ngrx/platform))
 - "Headless" website architecture (decoupled architecture)
+
+## Package Dependenses
+
+`ng-zorro-antd` has just a few dependences:
+
+- `"date-fns": "^2.16.1"`
+- `"@ant-design/icons-angular": "^12.0.3"`
+- `"@ant-design/colors": "^5.0.0"`
+- `"@ant-design/icons-svg": "^4.0.0"`
 
 ## Server-side
 

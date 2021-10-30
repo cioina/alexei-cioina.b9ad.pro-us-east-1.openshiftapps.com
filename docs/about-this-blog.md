@@ -32,8 +32,10 @@ and fully automatic deployments.
 I've found [a GitHub repository](https://github.com/dwightwatson/dwightwatson.com) that satisfies all 4 conditions. Well, in fact, it generates a static website, so condition 4 is not
 just simulated. In contrast, [this GitHub repository](https://github.com/dwightwatson/neontsunami-laravel) uses Laravel's Blade template and a MySQL database to
 [generate posts](https://github.com/dwightwatson/neontsunami-laravel/blob/master/resources/views/posts/show.blade.php) on the server-side. It means that every time you access a post,
-your web browser makes a request to the server and the server will get the content from the database and render HTML content. Even if Blade caches the result, every request creates
-a connection to the database (We do not consider [Laravel Octane](https://laravel.com/docs/8.x/octane) here.) Static websites do not need a database and the content is cached on
-the user's side. So, it is very easy to see the advantage of a static blog website.
+your web browser makes a request to the server and the server will get the content from the database and render HTML (BTW, [here](https://github.com/cioina/neontsunami) is a version adapted for OpenShift.) Even if Blade caches the result, every request creates a connection to the database (We do not consider [Laravel Octane](https://laravel.com/docs/8.x/octane) here.) Static websites do not need a database and the content is cached on the user's side. So, it is very easy to see the advantage of a static blog website.
 
 How do we simulate static content? All the posts from this blog are Angular compiled JavaScript files that are cached on the user's side.
+
+## Compare Different Tools for Static Content Generation
+
+[Here](https://docs.astro.build/comparing-astro-vs-other-tools/) I've found a compact comparation bettwen [Astro](https://github.com/snowpackjs/astro) and diffrent tools for static content generation.

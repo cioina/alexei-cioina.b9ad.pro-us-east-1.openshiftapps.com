@@ -7,7 +7,7 @@ As you can see, this website does not have a formal version tag. It tries to use
 
 ## The Problem
 
-It may be problematic to have latest version for some websites that use Angular with a lot of lazy-loading modules. Imagine a user browsing your website just seconds before you stat to deploy a new version of your website. The user will still have the old version (old Angular compiled JavaScript files) even after the deployment ends.
+It may be problematic to have latest version for some websites that use Angular with a lot of lazy-loading modules. Imagine a user browsing your website just seconds before you start to deploy a new version of your website. The user will still have the old version (old Angular compiled JavaScript files) even after the deployment ends.
 
 ## The Solution
 
