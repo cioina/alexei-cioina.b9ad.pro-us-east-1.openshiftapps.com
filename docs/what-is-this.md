@@ -22,7 +22,7 @@ The main difference between this website and the [official](https://ng.ant.desig
 
 ## Compare Different Tools for Static Content Generation
 
-[Here](https://docs.astro.build/comparing-astro-vs-other-tools/) is a compact comparation bettwen [Astro](https://github.com/snowpackjs/astro) and diffrent tools for static content generation.
+[Here](https://docs.astro.build/comparing-astro-vs-other-tools/) is a compact comparison between [Astro](https://github.com/snowpackjs/astro) and different tools for static content generation.
 
 ## Client-side
 
@@ -42,13 +42,13 @@ We compile `ng-zorro-antd`and `@ant-design/icons-angular` direct from sources, s
 
 ```json
   "dependencies": {
-    "@angular/cdk": "^12.2.12",
+    "@angular/cdk": "^13.1.1",
     "@ctrl/tinycolor": "^3.4.0",
-    "@ngrx/effects": "^12.5.1",
-    "@ngrx/router-store": "^12.5.1",
-    "@ngrx/store": "^12.5.1",
-    "date-fns": "^2.25.0",
-    "@juggle/resize-observer": "^3.3.1"
+    "@juggle/resize-observer": "^3.3.1",
+    "@ngrx/effects": "^13.0.2",
+    "@ngrx/router-store": "^13.0.2",
+    "@ngrx/store": "^13.0.2",
+    "date-fns": "^2.25.0"
   }
 ```
 
@@ -70,20 +70,20 @@ We use following PHP packages via Composer install:
 Lock file operations: 54 installs, 0 updates, 0 removals
   - Locking brick/math (0.9.3)
   - Locking doctrine/inflector (2.0.4)
-  - Locking doctrine/lexer (1.2.1)
-  - Locking dragonmantank/cron-expression (v3.1.0)
+  - Locking doctrine/lexer (1.2.2)
+  - Locking dragonmantank/cron-expression (v3.3.1)
   - Locking egulias/email-validator (2.1.25)
   - Locking graham-campbell/result-type (v1.0.4)
-  - Locking laravel/framework (v8.74.0)
-  - Locking laravel/serializable-closure (v1.0.5)
-  - Locking laravelcollective/html (v6.2.1)
-  - Locking league/commonmark (1.6.6)
-  - Locking league/flysystem (1.1.8)
+  - Locking laravel/framework (v8.83.1)
+  - Locking laravel/serializable-closure (v1.1.1)
+  - Locking laravelcollective/html (v6.3.0)
+  - Locking league/commonmark (1.6.7)
+  - Locking league/flysystem (1.1.9)
   - Locking league/mime-type-detection (1.9.0)
   - Locking monolog/monolog (2.3.5)
-  - Locking nesbot/carbon (2.54.0)
-  - Locking opis/closure (3.6.2)
-  - Locking phpoption/phpoption (1.8.0)
+  - Locking nesbot/carbon (2.56.0)
+  - Locking opis/closure (3.6.3)
+  - Locking phpoption/phpoption (1.8.1)
   - Locking psr/container (1.1.1)
   - Locking psr/event-dispatcher (1.0.0)
   - Locking psr/log (1.1.4)
@@ -91,36 +91,36 @@ Lock file operations: 54 installs, 0 updates, 0 removals
   - Locking ramsey/collection (1.2.2)
   - Locking ramsey/uuid (4.2.3)
   - Locking swiftmailer/swiftmailer (v6.3.0)
-  - Locking symfony/console (v5.4.0)
-  - Locking symfony/css-selector (v5.4.0)
+  - Locking symfony/console (v5.4.3)
+  - Locking symfony/css-selector (v5.4.3)
   - Locking symfony/deprecation-contracts (v2.5.0)
-  - Locking symfony/error-handler (v5.4.0)
-  - Locking symfony/event-dispatcher (v5.4.0)
+  - Locking symfony/error-handler (v5.4.3)
+  - Locking symfony/event-dispatcher (v5.4.3)
   - Locking symfony/event-dispatcher-contracts (v2.5.0)
-  - Locking symfony/finder (v5.4.0)
-  - Locking symfony/http-foundation (v5.4.0)
-  - Locking symfony/http-kernel (v5.4.0)
-  - Locking symfony/mime (v5.4.0)
-  - Locking symfony/polyfill-ctype (v1.23.0)
-  - Locking symfony/polyfill-iconv (v1.23.0)
-  - Locking symfony/polyfill-intl-grapheme (v1.23.1)
-  - Locking symfony/polyfill-intl-idn (v1.23.0)
-  - Locking symfony/polyfill-intl-normalizer (v1.23.0)
-  - Locking symfony/polyfill-mbstring (v1.23.1)
-  - Locking symfony/polyfill-php72 (v1.23.0)
-  - Locking symfony/polyfill-php73 (v1.23.0)
-  - Locking symfony/polyfill-php80 (v1.23.1)
-  - Locking symfony/polyfill-php81 (v1.23.0)
-  - Locking symfony/process (v5.4.0)
-  - Locking symfony/routing (v5.4.0)
+  - Locking symfony/finder (v5.4.3)
+  - Locking symfony/http-foundation (v5.4.3)
+  - Locking symfony/http-kernel (v5.4.4)
+  - Locking symfony/mime (v5.4.3)
+  - Locking symfony/polyfill-ctype (v1.24.0)
+  - Locking symfony/polyfill-iconv (v1.24.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.24.0)
+  - Locking symfony/polyfill-intl-idn (v1.24.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.24.0)
+  - Locking symfony/polyfill-mbstring (v1.24.0)
+  - Locking symfony/polyfill-php72 (v1.24.0)
+  - Locking symfony/polyfill-php73 (v1.24.0)
+  - Locking symfony/polyfill-php80 (v1.24.0)
+  - Locking symfony/polyfill-php81 (v1.24.0)
+  - Locking symfony/process (v5.4.3)
+  - Locking symfony/routing (v5.4.3)
   - Locking symfony/service-contracts (v2.5.0)
-  - Locking symfony/string (v5.4.0)
-  - Locking symfony/translation (v5.4.0)
+  - Locking symfony/string (v5.4.3)
+  - Locking symfony/translation (v5.4.3)
   - Locking symfony/translation-contracts (v2.5.0)
-  - Locking symfony/var-dumper (v5.4.0)
-  - Locking tijsverkoyen/css-to-inline-styles (2.2.3)
-  - Locking vlucas/phpdotenv (v5.4.0)
-  - Locking voku/portable-ascii (1.5.6)
+  - Locking symfony/var-dumper (v5.4.3)
+  - Locking tijsverkoyen/css-to-inline-styles (2.2.4)
+  - Locking vlucas/phpdotenv (v5.4.1)
+  - Locking voku/portable-ascii (1.6.1)
   - Locking webmozart/assert (1.10.0)
 ```
 
